@@ -1,0 +1,23 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    color:crimson;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+section h2 {
+    color:blue;
+}
+
+.green-text {
+    color:#1fd81f;
+}
+
+.pink-bg {
+    background-color: pink;
+}
