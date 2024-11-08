@@ -1,0 +1,23 @@
+ body {
+    background-color: mediumpurple;
+}
+
+h1 {
+    color:#43138e;
+}
+
+p {
+    color:darkblue;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.pink-text {
+    color:pink
+}
+
+.palevioletred-bg {
+    color:palevioletred
+}

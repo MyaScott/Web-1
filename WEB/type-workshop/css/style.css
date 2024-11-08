@@ -1,0 +1,109 @@
+@font-face {   
+font-family: PT "Arbu";
+    src:  url(../font/arbutus/Arbutus-Regular.tff);
+}
+
+@font-face {   
+font-family: PT "Danfo";
+    src:  url(../font/danfo/Danfo-Regular-VariableFont_ELSH.ttf);
+}
+
+@font-face {
+    font-family: PT "notable";
+    src: url(../font/notable/Notable-Regular.tff);
+}
+
+@font-face {
+    font-family: PT "frijole";
+    src: url(../font/frijole/Frijole-Regular.tff);
+}
+
+@font-face {
+    font-family: PT "mystery-quest";
+    src: url(../font/mystery-quest/MysteryQuest-Regular.tff);
+}
+
+@font-face {
+    font-family: PT "orbitron";
+    src: url(../font/orbitron/Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: PT "rye";
+    src: url(../font/rye/Rye-Regular.ttf);
+}
+
+@font-face {
+    font-family: PT "audio";
+    src: url(../font/audiowide/AudioWide-Regular.ttf);
+}
+
+@font-face {
+    font-family: PT "tangerine";
+    src: url(../font/tangerine/Tangerine-Regular.ttf);
+}
+
+body {
+    background-color: lightpink;
+}
+
+.type1 {
+    font-weight: 100;
+    letter-spacing: -1px;
+    font-family: "tangerine", regular;
+    
+}
+
+.type2 {
+    font-weight: 200;
+    letter-spacing: -0.5px;
+    text-align: center;
+    font-family: "audiowide", regular;
+}
+
+.type3 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: right;
+    font-family: "rye", regular;
+}
+
+.type4 {
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    font-family: "orbitron", wght;
+ 
+}
+
+.type5 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 3;
+    font-size: 1.125em;
+    font-family: "mysteryquest", regular;
+}
+
+.type6 {
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    font-family: "frijole", regular;
+}
+
+.type7 {
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: "notable", regualr;
+}
+
+.type8 {
+    font-weight: 800;
+    letter-spacing: 3.5px;
+    font-family: "danfo", regular;
+}
+
+.type9 {
+    font-weight: 900;
+    letter-spacing: 4px;
+       font-family: "arbutus", regular;
+}
+
