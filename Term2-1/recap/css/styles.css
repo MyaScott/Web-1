@@ -1,0 +1,57 @@
+body {
+    background-color: midnightblue;
+}
+
+.title {
+    color:azure;
+    padding: 20px 20px 20px 20px;
+    text-align:center;
+    margin: 20px 20px;
+}
+
+.direct-box {
+    background-color: azure;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 10px;
+}
+
+.directory {
+    color:azure;
+    text-align:center;
+    padding: 10px ;
+}
+
+.name {
+     color:azure;
+    padding: 20px 20px 20px 20px;
+    text-align:center;
+}
+
+.lily {
+    margin: 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.text {
+    color:azure;
+    text-align: center;
+    margin: 25px auto;
+    border-radius: 16px;
+}
+
+.photos {
+     margin: 40px 40px;
+    margin-bottom: 45px;
+    object-position: center;
+    object-fit: contain;
+    padding: 20px;
+    
+}
+
+.photo2 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    padding: 20px;
+}
