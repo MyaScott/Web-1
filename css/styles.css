@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Aoboshi One", serif;
+    font-size: 64px;
+}
+
+h2 {
+    font-family: "Aoboshi One", serif;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: "Aoboshi One", serif;
+    font-size: 20px;
+}
+
+/* Navigation */
+header {
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.left-items {
+    width: 100%;
+}
+
+.logo {
+    width: 127px;
+    height: 40px;
+}
+
+.right-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+/* Hero Banner */
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 548px;
+    padding: 0 16px;
+    background-image: url(../images/banners/hero-bg.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.button {
+    padding: 8px 24px;
+    background-color: #FFC900;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.margin-one {
+    margin: 155px;
+}
+
+.men {
+ display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.menleft {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+     
+}
+
+h4 {
+     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.items1 {
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    background-color: #FFFFFF;
+    flex-direction: wrap;
+}
+
+.menphotos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.menphotos2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+menphotos3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.menphotos4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.women {
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    background-color: #FFFFFF; 
+}
+
+.womenleft {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+     
+}
+.margin2 {
+    margin: 155px;
+}
+.items2 {
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    background-color: #FFFFFF;
+    flex-direction: wrap;
+}
+
+.ladyphotos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.ladyphotos2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ladyphotos3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ladyphotos4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.yellow {
+    
+    background-image: url(../images/banners/sale-bg.jpg);
+    background-size:cover;
+    width: 1118px;
+    height: 380px;
+     display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+  margin-bottom: 40px;
+    
+}
+
+.hurry {
+    font-family: "Inter", serif;
+}
+
+.button2 {
+    padding: 8px 24px;
+    background-color:  #000000 ;
+    text-decoration: none;
+    color:#FFC900;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.blackbox {
+    background-color: black;
+    width: 2000;
+    height: 339;
+     padding: 100px;
+    color: white;
+
+}
+
+.tm {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.all {
+     display: flex;
+    flex-direction: row;
+    justify-content:flex-end ;
+    align-items:center;
+    padding: 10px 0;
+    gap: 30;
+}
+
+.FAQ {
+     display: flex;
+    flex-direction: column;
+    justify-content:flex-end ;
+    align-items:flex-start;
+    padding: 10px ;
+    gap: 30;
+}
+
+.quick {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items:flex-start;
+    padding: 10px ;
+    gap: 30;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    padding: 10px ;
+    gap: 30;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:center;
+    padding: 10px;
+}
