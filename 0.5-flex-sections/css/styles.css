@@ -9,13 +9,24 @@ section {
     justify-content: center;
 }
 
-.inn-frame {
+.inner {
     display:flex;
     gap: 50px;
     max-width: 1340px;
     margin: 155px;
 }
 
+.flower {
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 463px;
+    max-height: 435;
+    align-content: flex-end;
+    justify-content: flex-end;
+    padding: 20px 20px 20px 20px
+}
 
 .colum-one {
     display:flex;
@@ -49,10 +60,10 @@ p {
     width: fit-content;
 }
 .frame2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: center;
+   display:flex;
+    gap: 50px;
+    max-width: 1340px;
+    margin: 155px;
 }
 
 .colum-two {
@@ -69,11 +80,28 @@ p {
     border-radius: 20px;
     width: fit-content;
 }
+.para {
+    padding: 20px;
+}
+
 
 .p2 {
     font-size: 25px;
+    padding: 20px;
 }
 
 .p3 {
     font-size: 12px;
+    padding: 20px;
+}
+
+.pic3 {
+     display:flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 463px;
+    max-height: 435;
+    align-content: flex-end;
+    justify-content: flex-end;
 }
