@@ -133,6 +133,8 @@ img {
     gap: 20px;
 }
 
+
+
 /* Testimonial Section */
 .testimonial {
     display: flex;
@@ -254,9 +256,66 @@ input {
     border-radius: 50px;
     font-size: 18px;
 }
-
- /* mobile view */
+/* mobile view */
 @media only screen and (max-width: 768px){
+    /* hero section */
+    .hero
+{
+    padding: 40px 16px;
+}
+
+    .h1 .p {
+        max-width: none;
+    }  
+ 
+   
+
+
+    /* about section */
+    .about
+{
+    padding: 40px 16px;
+}
+    .about img {
+        max-width: none;
+    }
+
+.about .inner-container {
+    flex-direction: column;
+    gap: 20px;
+}
+    .about .text {
+        max-width: none;
+    }  
+    
+    
+    
+    /* our services section */
+    .our-services
+{
+    padding: 40px 16px;
+}
+    .services img {
+        max-width: none;
+         flex-direction: column;
+        
+    }
+
+.our-services .inner-container {
+    gap: 20px;
+     flex-direction: column;
+}
+    .services {
+         flex-direction: column;
+    }
+    
+    .our-services .text {
+        max-width: none;
+    } 
+    
+    
+    
+ 
     /* testimonial section */
     .testimonial
 {
@@ -275,41 +334,43 @@ input {
         max-width: none;
     }
     
-    }
+    
 
-/* mobile view */
-@media only screen and (max-width: 768px){
-    /* hero section */
-    .hero
+    
+    /* pricing section */
+    .pricing
 {
     padding: 40px 16px;
+    gap: 50px;
 }
 
-    .h1 .p {
+.pricing .inner-container {
+    flex-direction: column;
+    gap: 20px;
+  
+}
+    .pricing .text {
         max-width: none;
     }  
- 
-    }
+    
+    .options {
+        gap: 50px;
+        flex-direction: column;
+    } 
+ }
 
- /* mobile view */
-@media only screen and (max-width: 768px){
-    /* about section */
-    .about
+   /* cta section */
+    .cta
 {
     padding: 40px 16px;
 }
 
-.about .inner-container {
-    flex-direction: column-reverse;
+.cta  {
+    flex-direction: column;
     gap: 20px;
 }
-    .about .text {
+    .cta .text {
         max-width: none;
     }  
+  
     
-    .about img {
-        max-width: none;
-    }
-    
-    }
-
